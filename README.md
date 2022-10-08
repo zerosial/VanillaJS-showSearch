@@ -3,11 +3,14 @@ https://school.programmers.co.kr/learn/courses/14723
 
 3번째 미션
 
+
 ## 사이트 주소
 https://zerosial.github.io/VanillaJS-showSearch/
 
+
 ## 필수 구현사항
 - [x] 이디어츠 API를 통해 이디어츠 공연 검색기 만들기
+
 
 ## 보너스 구현사항
 - [x] `fetch` 해오는 코드를 `async`, `await`를 사용하여 구현
@@ -21,6 +24,7 @@ https://zerosial.github.io/VanillaJS-showSearch/
 - [x] 이름 목록을 포스터 아래에 렌더링하기
 - [x] 뮤지션 이름을 클릭하면 해당 이름으로 공연 검색이 일어나도록 하기
 - [x] 검색 내역이 쌓이지 않게 만들기
+
 
 ## How to 
 - 구성 : App.js 에서 SearchInput.js SearchResult.js SearchHistory.js를 관리하도록 했습니다.
