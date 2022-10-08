@@ -1,4 +1,4 @@
-const API_END_POINT = 'https://api.idiots.band/api/search?keyword=';
+const API_END_POINT = "https://api.idiots.band/api/search?keyword=";
 
 export default async function SearchApi({ value, isChangeLocalValue }) {
   try {
@@ -8,11 +8,11 @@ export default async function SearchApi({ value, isChangeLocalValue }) {
     }
 
     document.dispatchEvent(
-      new CustomEvent('callSearch', {
+      new CustomEvent("callSearch", {
         detail: {
           isChangeLocalValue: isChangeLocalValue,
           title: value,
-          data: response.json(),
+          data: await res.json(),
         },
       })
     );
