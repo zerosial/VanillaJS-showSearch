@@ -7,6 +7,9 @@ https://school.programmers.co.kr/learn/courses/14723
 ## 사이트 주소
 https://zerosial.github.io/VanillaJS-showSearch/
 
+![chrome_GV9hYggXe8](https://user-images.githubusercontent.com/97251710/194720486-7b4d453b-9f3a-4074-adbf-64e7a670ed73.gif)
+
+
 
 ## 필수 구현사항
 - [x] 이디어츠 API를 통해 이디어츠 공연 검색기 만들기
