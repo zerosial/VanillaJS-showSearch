@@ -1,6 +1,10 @@
 # VanillaJS를 이용한 공연 API 검색기
 https://school.programmers.co.kr/learn/courses/14723
+
 3번째 미션
+
+## 사이트 주소
+https://zerosial.github.io/VanillaJS-showSearch/
 
 ## 필수 구현사항
 - [x] 이디어츠 API를 통해 이디어츠 공연 검색기 만들기
