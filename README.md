@@ -28,6 +28,8 @@ https://zerosial.github.io/VanillaJS-showSearch/
 
 ## How to 
 - 구성 : App.js 에서 SearchInput.js SearchResult.js SearchHistory.js를 관리하도록 했습니다.
+- Debounce를 통해 input값을 500ms의 딜레이를 가지고 받아들입니다.
 - Custom Event 수신기를 App.js에 달아 검색 혹은 클릭 등 callSearch 행동이 일어나면 app.js에서 setState를 통해 리랜더합니다.
-- 검색 내용 , 검색 타이틀은 Custom Event의 Detail 항목을 통해 상태관리 합니다.
+- 검색 내용 , 검색 타이틀, 검색이력 표시는 Custom Event의 Detail 항목을 통해 상태관리를 합니다.
 - 포스터 리스트 중 타이틀 클릭 시 검색이력이 쌓이지 않게 하기 위해 isChangeLocalValue (기본 true) 상태를 통해 제어합니다.
+- 검색 이력은 LocalStorage를 통해 관리합니다.
